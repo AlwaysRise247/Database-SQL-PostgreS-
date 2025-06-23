@@ -1,0 +1,31 @@
+Creation of a table :
+
+CREATE TABLE products(
+
+	id INT,
+    name STRING,
+    price MONEY,
+    PRIMARY KEY (id)
+  
+
+)
+
+------------------> This creates a new table with columns id, name and price
+
+
+Inserting into a table:
+
+INSERT INTO products
+VALUES (1, 'United States Of America', 2000000000)
+  
+
+INSERT INTO products
+VALUES (2,'Soviet Union', 1500000000)
+
+
+
+
+
+
+
+
